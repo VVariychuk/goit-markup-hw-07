@@ -1,0 +1,119 @@
+.footer-bg {
+  background: $primary-background-color;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-adress {
+  color: $wite-color;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  padding-top: 20px;
+}
+.footer-adress-text {
+  display: flex;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.footer-adress-text > div:first-child {
+  margin-right: 70px;
+}
+
+.footer-link {
+  display: inline-block;
+  color: $contacts-rgba;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.7;
+  margin-top: 9px;
+}
+
+.common {
+  color: $wite-color;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.footer-common .social-link {
+  display: inline-flex;
+  height: 44px;
+  width: 44px;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: $wite-color;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.footer-form {
+  margin-left: 93px;
+  display: flex;
+  align-items: center;
+}
+
+.subscription {
+  position: relative;
+  margin-right: 12px;
+}
+
+.sub-text {
+  position: absolute;
+  top: -36px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.15;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.subscription > input {
+  width: 360px;
+  height: 50px;
+  padding: 11px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  background-color: $primary-background-color;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.25;
+  display: flex;
+  align-items: center;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.subscribe {
+  display: inline-flex;
+  align-items: center;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  padding: 10px 28px;
+  color: #ffffff;
+  cursor: pointer;
+  border: transparent;
+  background-color: $accent-color;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.sub-icon {
+  fill: $wite-color;
+  margin-left: 10px;
+}

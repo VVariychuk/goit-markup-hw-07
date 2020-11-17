@@ -1,0 +1,40 @@
+.advantage-list p {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.advantage-list .cards-items {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.advantages {
+  padding-top: 94px;
+}
+
+.advantage-list {
+  display: flex;
+  padding: 0px;
+}
+
+.advantage-list > li {
+  width: calc((100% - 90px) / 4);
+  margin-left: 30px;
+}
+.advantage-list > li:first-child {
+  margin-left: 0px;
+}
+
+.advant-icon {
+  width: 70px;
+  height: 70px;
+}
+
+.advantages-icons-bg {
+  width: 100%;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  padding: 25px 100px;
+}
