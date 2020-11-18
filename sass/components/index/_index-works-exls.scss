@@ -7,15 +7,15 @@
   display: flex;
   padding: 0px;
   margin: 0px;
-}
-.work-examples > li {
-  width: calc((100% - 60px) / 3);
-  margin-left: 30px;
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-}
-.work-examples > li:first-child {
-  margin-left: 0px;
+  & > li {
+    width: calc((100% - 60px) / 3);
+    margin-left: 30px;
+    background: #ffffff;
+    border: 1px solid #eeeeee;
+    &:first-child {
+      margin-left: 0px;
+    }
+  }
 }
 
 .work-examples-overlay {
@@ -35,7 +35,6 @@
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
-
   color: $wite-color;
   background-color: rgba(47, 48, 58, 0.8);
 }

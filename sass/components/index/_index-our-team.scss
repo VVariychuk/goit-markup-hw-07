@@ -2,6 +2,9 @@
   background-color: $secondary-background-color;
   padding-top: 94px;
   padding-bottom: 94px;
+  & .cards-items {
+    font-size: 16px;
+  }
 }
 
 .teams-title {
@@ -10,27 +13,22 @@
   line-height: 1.18x;
 }
 
-.our-team .cards-items {
-  font-size: 16px;
-}
-
 .team-list {
   display: flex;
   padding: 0px;
   margin: 0px;
-}
-
-.team-list > li {
-  width: calc((100% - 60px) / 3);
-  margin-left: 30px;
-  text-align: center;
-  background-color: $wite-color;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
-.team-list > li:first-child {
-  margin-left: 0px;
+  & > li {
+    width: calc((100% - 60px) / 3);
+    margin-left: 30px;
+    text-align: center;
+    background-color: $wite-color;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    &:first-child {
+      margin-left: 0px;
+    }
+  }
 }
 
 .team-descrition {
@@ -38,8 +36,8 @@
   padding-bottom: 30px;
   padding-left: 32px;
   padding-right: 32px;
-}
-.team-descrition p {
-  margin-top: 10px;
-  margin-bottom: 0px;
+  & p {
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
 }
