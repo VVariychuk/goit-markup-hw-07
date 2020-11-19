@@ -33,16 +33,11 @@
 }
 
 .order-link {
-  display: inline-block;
-  background-color: $accent-color;
-  color: $wite-color;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
+  @extend %indexButton;
   padding: 10px 32px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+  &:focus,
+  &:hover {
+    background-color: $wite-color;
+    color: $accent-color;
+  }
 }
